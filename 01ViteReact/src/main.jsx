@@ -1,14 +1,14 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client'
 
-const reactelement ={
-    type:'a',
-    props:{
-        href:'https://www.notion.so/',
-        target:'_blank'
-    },
-    children:'Click this link to visit Notion'
-}
+// const reactelement ={
+//     type:'a',
+//     props:{
+//         href:'https://www.notion.so/',
+//         target:'_blank'
+//     },
+//     children:'Click this link to visit Notion'
+// }
 
 const reactElement = React.createElement(
     'a',
@@ -16,9 +16,9 @@ const reactElement = React.createElement(
     'Click Me'
 )
 
-const randomElement =(
-    <h1>Hellow there</h1>
-)
+// const randomElement =(
+//     <h1>Hellow there</h1>
+// )
 
 createRoot(document.getElementById('root')).render(
     // App()
